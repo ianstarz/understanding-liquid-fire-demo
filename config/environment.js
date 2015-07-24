@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'understanding-liquid-fire',
+    podModulePrefix: 'understanding-liquid-fire/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
