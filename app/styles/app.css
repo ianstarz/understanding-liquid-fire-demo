@@ -8,6 +8,61 @@ div.container {
   margin: 20px auto 0;
 }
 
+div#people {
+  margin-top: 40px;
+}
+
+div.person {
+  width: 300px;
+  margin: 0 80px 40px 0;
+  float: left;
+}
+
+div.person.person-detail {
+  width: 420px;
+}
+
+div.person:hover {
+  cursor: pointer;
+}
+
+div.person-image {
+
+}
+
+div.person-image img {
+  width: 100%;
+  height: auto;
+}
+
+div.person-name {
+  color: #608c28;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 24px;
+  text-align: center;
+  line-height: 21px;
+}
+
+div.person-title {
+  color: #767777;
+  margin: 10px 0;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+  text-align: center;
+}
+
+div.person-info {
+  color: #767777;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+div.person-info p {
+  padding-top: 80px;
+}
 
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 
