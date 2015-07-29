@@ -3,9 +3,23 @@ html, body {
   width: 100%;
 }
 
+body > div.ember-view {
+  height: 100%;
+  width: 100%;
+}
+
 div.container {
   width: 90%;
+  height: 100%;
   margin: 20px auto 0;
+}
+
+div.container > .liquid-container {
+  height: 100%;
+}
+
+div.container > .liquid-container .liquid-child {
+  height: 100%;
 }
 
 div#people {
@@ -55,6 +69,8 @@ div.person-title {
 }
 
 div.person-info {
+  width: 60%;
+  float: right;
   color: #767777;
   font-size: 24px;
   line-height: 32px;
